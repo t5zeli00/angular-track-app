@@ -1,8 +1,8 @@
 # TrackApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4. 
-You can install it by running the following command: 
-`npm install -g @angular/cli`
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+
+You can install it by running the following command: `npm install -g @angular/cli`
 
 ## Development server
 
@@ -10,7 +10,9 @@ Run `heroku open` for a server. Navigate to `https://powerful-inlet-18679.heroku
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. 
+
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
