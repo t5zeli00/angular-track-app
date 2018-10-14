@@ -6,12 +6,12 @@ import { HttpModule } from '@angular/http';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// search module
-import { Ng2SearchPipeModule } from 'ng2-search-filter';
-
 import { AppComponent } from './app.component';
 import { TrackDetailsComponent } from './tracks/track-details/track-details.component';
 import { TrackListComponent } from './tracks/track-list/track-list.component';
+
+// search module
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
   declarations: [

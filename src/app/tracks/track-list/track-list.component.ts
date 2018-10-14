@@ -11,10 +11,9 @@ import { TrackDetailsComponent } from '../track-details/track-details.component'
 })
 
 export class TrackListComponent implements OnInit {
-
   tracks: Track[]
   selectedTrack: Track
-
+  searchText;
   constructor(private trackService: TrackService) { }
 
   ngOnInit() {
@@ -62,7 +61,7 @@ export class TrackListComponent implements OnInit {
         'delivered': false,
         'not_delivered': false
       }
-    };
+  };
 
     // By default, a newly-created contact will have the selected state.
     this.selectTrack(track);
