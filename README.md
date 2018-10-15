@@ -6,7 +6,9 @@ You can install it by running the following command: `npm install -g @angular/cl
 
 ## Development server
 
-Run `heroku open` for a server. Navigate to `https://powerful-inlet-18679.herokuapp.com/`. The app will automatically reload if you change any of the source files.
+You should make heroku a git repository by running the following command: `heroku git:remote -a powerful-inlet-18679`
+
+After run `heroku open` for a server. Navigate to `https://powerful-inlet-18679.herokuapp.com/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
